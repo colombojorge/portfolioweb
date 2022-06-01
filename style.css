@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+    font-family: DM sans;
+}
+
+nav .navbar-brand {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+button .navbar-toggler {
+    color: white;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.clearfix {
+    background-color: black;
+    color: white;
+}
