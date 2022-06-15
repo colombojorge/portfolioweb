@@ -2,6 +2,7 @@ html {
 	background-color: white;
 	font-family: DM sans;
 }
+
 nav {
 	.navbar-brand {
 		font-family: 'DM Sans';
@@ -9,21 +10,30 @@ nav {
 		font-weight: bolder;
 		margin-left: 10px;
 	}
+
 	.nav-link {
 		color: black;
 	}
 }
+
 button {
 	.navbar-toggler {
 		color: black;
 	}
 }
-footer {
-		background-color: white;
-		color: #6D72AE;
-		text-align: center;
-		padding-top: 10px;
+
+@mixin footer {
+	background-color: white;
+	color: #6D72AE;
+	text-align: center;
+	padding-top: 10px;
 }
+
+.fondocontacto {
+	@include footer();
+	text-decoration: double;
+}
+
 div {
 	h2 {
 		color: white;
@@ -32,6 +42,7 @@ div {
 		padding-left: 30px;
 		padding-top: 30px;
 	}
+
 	p {
 		text-align: center;
 		font-size: large;
@@ -39,56 +50,69 @@ div {
 		margin: 20px;
 		padding-top: 90px;
 	}
+
 	.textoplaylist {
 		padding-top: 10px;
 		color: #6D72AE;
 		font-size: large;
 	}
+
 	.textocontacto {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
 }
+
 .fondocontacto {
 	background-image: url(./fotos/skywallpaperweb.png);
 	color: white;
 	padding: 10px;
 	text-align: center;
 }
+
 .clearfix {
 	background-image: url(./fotos/skywallpaperweb.png);
 	color: white;
 }
+
 .inframe {
 	padding: 50%;
 }
+
 body {
 	padding: 20px;
 	font-family: sans-serif;
 	background: #f2f2f2;
 }
+
 img {
 	width: 100%;
 	height: auto;
 }
+
 h2 {
 	margin-bottom: .5em;
 }
+
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-gap: 1em;
 	padding: 30px;
 }
+
 .child-page-listing {
 	background-image: url(./fotos/skywallpaperweb.png);
 }
+
 .location-listing {
 	position: relative;
+
 	&:hover {
 		.location-title {
 			opacity: 1;
 		}
+
 		.location-image {
 			img {
 				filter: blur(2px);
@@ -96,15 +120,18 @@ h2 {
 		}
 	}
 }
+
 .location-image {
 	line-height: 0;
 	overflow: hidden;
+
 	img {
 		filter: blur(0px);
 		transition: filter 0.3s ease-in;
 		transform: scale(1.1);
 	}
 }
+
 .location-title {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -123,19 +150,23 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
+
 .resolucion {
 	width: 100%;
 }
+
 @media (hover: none) {
 	.location-title {
 		opacity: 1;
 	}
+
 	.location-image {
 		img {
 			filter: blur(2px);
 		}
 	}
 }
+
 @media screen and (max-width: 480px) {
 	div {
 		p {
@@ -147,21 +178,26 @@ h2 {
 			background-repeat: no-repeat;
 		}
 	}
+
 	.grid-container {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 		grid-gap: 1em;
 		padding: 30px;
 	}
+
 	.child-page-listing {
 		background-image: url(./fotos/skywallpaperweb.png);
 	}
+
 	.location-listing {
 		position: relative;
+
 		&:hover {
 			.location-title {
 				opacity: 1;
 			}
+
 			.location-image {
 				img {
 					filter: blur(2px);
@@ -169,15 +205,18 @@ h2 {
 			}
 		}
 	}
+
 	.location-image {
 		line-height: 0;
 		overflow: hidden;
+
 		img {
 			filter: blur(0px);
 			transition: filter 0.3s ease-in;
 			transform: scale(1.1);
 		}
 	}
+
 	.location-title {
 		font-size: 1.5em;
 		font-weight: bold;
@@ -197,11 +236,13 @@ h2 {
 		justify-content: center;
 	}
 }
+
 @media (max-width: 480px) {
 	.pc {
 		display: none;
 	}
 }
+
 @media (min-width: 768px) {
 	.movil {
 		display: none;
