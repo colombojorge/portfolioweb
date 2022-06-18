@@ -4,10 +4,10 @@ html {
 }
 
 nav .navbar-brand {
-  font-family: 'DM Sans';
+  font-family: 'Montserrat', sans-serif;
   color: #6D72AE;
   font-weight: bolder;
-  margin-left: 10px;
+  margin-left: -10px;
 }
 
 button .navbar-toggler {
