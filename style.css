@@ -19,17 +19,18 @@ nav .nav-link {
 }
 
 .resolucion {
-  position: absolute;
+  position: relative;
+  min-height: 80vh;
 }
 
 .packs {
   position: absolute;
-  bottom: -142px;
+  bottom: -132px;
 }
 
 footer {
-  position:absolute;
-  bottom: 0;
+  position: absolute;
+  bottom: -100px;
   width: 100%;
   color: #6D72AE;
   text-align: center;
