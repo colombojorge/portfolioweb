@@ -5,7 +5,7 @@ html {
 
 nav .navbar-brand {
   font-family: 'Montserrat', sans-serif;
-  color: #6D72AE;
+  color: #1A4AFA;
   font-weight: bolder;
   margin-left: -10px;
 }
@@ -18,11 +18,21 @@ nav .nav-link {
   color: black;
 }
 
+.resolucion {
+  position: absolute;
+}
+
+.packs {
+  position: absolute;
+  bottom: -142px;
+}
+
 footer {
-  background-color: white;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
   color: #6D72AE;
   text-align: center;
-  padding-top: 10px;
 }
 
 div h2 {
@@ -60,8 +70,7 @@ div .textocontacto {
 }
 
 .clearfix {
-  background-image: url(./fotos/skywallpaperweb.png);
-  color: white;
+  color: #1A4AFA;
 }
 
 .inframe {
