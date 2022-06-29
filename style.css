@@ -235,6 +235,9 @@ h2 {
   .pc {
     display: none;
   }
+  .resolucion {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
