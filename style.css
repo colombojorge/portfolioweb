@@ -32,8 +32,10 @@ footer {
   position: absolute;
   bottom: -100px;
   width: 100%;
-  color: #6D72AE;
+  color: #1A4AFA;
   text-align: center;
+  font: 'Montserrat', sans-serif;
+  text-transform:lowercase;
 }
 
 div h2 {
@@ -238,5 +240,5 @@ h2 {
 @media (min-width: 768px) {
   .movil {
     display: none;
+    }
   }
-}
