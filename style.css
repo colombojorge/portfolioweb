@@ -29,6 +29,13 @@ nav .nav-link {
 }
 
 footer {
+  color: #1A4AFA;
+  text-align: center;
+  font: 'Montserrat', sans-serif;
+  text-transform:lowercase;
+}
+
+.footerindex {
   position: absolute;
   bottom: -100px;
   width: 100%;
@@ -39,7 +46,7 @@ footer {
 }
 
 div h2 {
-  color: white;
+  color:#1A4AFA;
   font: DM sans;
   font-size: 40px;
   padding-left: 30px;
@@ -103,7 +110,7 @@ h2 {
 }
 
 .child-page-listing {
-  background-image: url(./fotos/skywallpaperweb.png);
+  background-color: white;
 }
 
 .location-listing {
