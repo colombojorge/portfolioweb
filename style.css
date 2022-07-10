@@ -28,6 +28,11 @@ nav .nav-link {
   bottom: -132px;
 }
 
+div .packsmovil {
+  padding-top: 60px;
+}
+
+
 footer {
   color: #1A4AFA;
   text-align: center;
@@ -68,14 +73,14 @@ div .textoplaylist {
 }
 
 .fondocontacto {
-  background-image: url(./fotos/skywallpaperweb.png);
-  color: white;
+  background-color: white;
+  color: #1A4AFA;
   padding: 10px;
-  text-align: center;
+  text-align:center;
 }
 
-div .textocontacto {
-  padding-top: 10px;
+article{
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -140,7 +145,7 @@ h2 {
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: #6D72AE(90, 0, 10, 0.4);
+  background: #1A4AFA(90, 0, 10, 0.4);
   color: white;
 
   display: flex;
@@ -154,6 +159,10 @@ h2 {
 
 .location-listing:hover .location-image img {
   filter: blur(2px);
+}
+
+body {
+  background-color: white;
 }
 
 
@@ -183,10 +192,6 @@ h2 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1em;
     padding: 30px;
-  }
-
-  .child-page-listing {
-    background-image: url(./fotos/skywallpaperweb.png);
   }
 
   .location-listing {
@@ -247,8 +252,23 @@ h2 {
   }
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+  .packs {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  }
+
 @media (min-width: 768px) {
   .movil {
+    display: none;
+    }
+  .packsmovil {
     display: none;
     }
   }
